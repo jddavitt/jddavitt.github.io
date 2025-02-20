@@ -15,9 +15,8 @@ title: Jackson Davitt's Portfolio # This is what shows up in the tab of the brow
 name: Jackson Davitt
 headline: headline message
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  As a recent graduate from Cal Poly SLO with a B.S. in Mechanical Engineering, I'm currently working in manufacturing but looking
+  transition to a role where I can learn more about mechanical design or mechatronics. I created this website to serve as a repository for the projects I've worked on in my spare time, I hope you enjoy!
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/profilepicture.jpeg
@@ -31,7 +30,7 @@ resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/vi
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
+  linkedin: test    # https://www.linkedin.com/in/{jackson-davitt-579015184/} 
   github: leea2    # https://github.com/{your url slug} 
   stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
