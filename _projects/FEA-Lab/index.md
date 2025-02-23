@@ -8,5 +8,6 @@ skills:
 main-image: /final bracket AL stress.jpg
 ---
 {% include image-gallery.html images="final bracket AL stress.jpg" height="600" %}
-{% include image-gallery.html images="Bike Trailer Static Loading FEA Results.png" height="600" %}
 {% include image-gallery.html images="bracket-drawing.jpg" height="1000" %}
+{% include image-gallery.html images="Bike Trailer Static Loading FEA Results.png" height="600" %}
+
