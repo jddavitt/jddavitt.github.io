@@ -10,8 +10,8 @@ skills:
 
 main-image: /finished_bike.jpg
 ---
-{% include image-gallery.html images="Initial Design Sketch.jpg" height="500" %}
-{% include image-gallery.html images="Bike Design Rev2.png" height="500" %}
+{% include image-gallery.html images="Initial Design Sketch.jpg" height="300" %}
+{% include image-gallery.html images="Bike Design Rev2.png" height="300" %}
 {% include image-gallery.html images="Loot Haul.jpg" height="500" %}
 {% include image-gallery.html images="main_welding_jig.jpg" height="500" %}
 {% include image-gallery.html images="off_angle_view_jig.jpg" height="500" %}
