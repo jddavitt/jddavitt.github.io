@@ -11,3 +11,4 @@ skills:
 
 main-image: /finished-car.jpg
 ---
+{% include image-gallery.html images="shock_inner_cap.png, finished_shocks.jpg" height="600" %}
