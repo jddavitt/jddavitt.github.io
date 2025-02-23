@@ -10,3 +10,12 @@ skills:
 - Project Management
 main-image: /full_prototype.jpg
 ---
+{% include image-gallery.html images="Suspension Mechanism Exploded View.png" height="400" %} 
+{% include image-gallery.html images="Suspension Mechanism Render View.png" height="400" %} 
+{% include image-gallery.html images="finished_wheel.jpg" height="400" %}
+{% include image-gallery.html images="full_prototype.jpg" height="400" %}
+{% include image-gallery.html images="lathe_operation.jpg" height="400" %}
+{% include image-gallery.html images="printing_wheels.jpg" height="400" %}
+{% include image-gallery.html images="scissor_jack_view.jpg" height="400" %}
+{% include image-gallery.html images="senior-expo-prototype.png" height="400" %}
+{% include image-gallery.html images="stepper_motor_view.jpg" height="400" %}
