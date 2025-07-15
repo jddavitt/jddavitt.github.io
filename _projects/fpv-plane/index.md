@@ -10,3 +10,4 @@ skills:
 - Project Management
 main-image: /fpv_plane_front.png
 ---
+{% include image-gallery.html images="fpv_plane_isometric.png, fpv_plane_isometric_ribs.png, fpv_plane_front.png, fpv_plane_side.png" height="400" %}
