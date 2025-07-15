@@ -8,5 +8,5 @@
     - Trade Study
     - Aerodynamics
     - 3D Printing
-  main-image: /project.webp 
+  main-image: /fpv_plane_front.png
   ---
