@@ -3,20 +3,15 @@
 
 <div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
   {% for image_path in image_paths %}
-      {% assign image_name = image_path | strip %}
-      {% if image_name contains 'https://' %}
-          <img 
-              src="{{ image_name }}"
-              alt="Web image"
-              loading="lazy"
-          />
-
-          {% else %}
-            <img 
-                src="/jddavitt.github.io/_projects/{{ page.slug }}/{{ image_name }}"
-                alt="{{image_name}}"
-                loading="lazy"
-            />
-          {% endif %}
+    {% assign image_name = image_path | strip %}
+    {% if image_name contains 'https://' %}
+      <img src="{{ image_name }}" alt="Web image" loading="lazy" />
+    {% else %}
+      <img
+        src="/jddavitt.github.io/_projects/{{ page.slug }}/{{ image_name }}"
+        alt="{{ image_name }}"
+        loading="lazy"
+      />
+    {% endif %}
   {% endfor %}
 </div>
