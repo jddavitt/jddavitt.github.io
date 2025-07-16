@@ -10,16 +10,13 @@
               alt="Web image"
               loading="lazy"
           />
-      {% else %}
-          {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
-          
-          <img 
-                src="/jddavitt.github.io{{ page.url | remove: '/index.html' }}/{{ image_name }}"
+
+          {% else %}
+            <img 
+                src="/jddavitt.github.io/_projects/{{ page.slug }}/{{ image_name }}"
                 alt="{{image_name}}"
                 loading="lazy"
-                onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
             />
-  
-      {% endif %}
+          {% endif %}
   {% endfor %}
 </div>
